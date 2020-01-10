@@ -1,0 +1,168 @@
+
+@font-face {
+    font-family: 'Playfair Display SC', serif;
+    src: url(font/PlayfairDisplay-Regular.ttf);
+    src: url(font/PlayfairDisplay-Bold.ttf);
+    font-family: 'Amita', cursive;
+    src: url(font/Amita-Regular.ttf);
+    src: url(font/Amita-Bold.ttf);
+    font-family: 'Kaushan Script', cursive;
+    src: url(font/KaushanScript-Regular.ttf);
+    font-family: 'Ma Shan Zheng', cursive; 
+    src: url(font/MaShanZheng-Regular.ttf);
+}
+.menuNote, .menuChic, .menuDelice, .menuPalette {
+    margin: auto;
+    width: 80%;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    box-shadow: 1px 1px 8px #555;
+   
+}
+
+.menuNote {
+    background-color: #FCDFDA;
+    font-family: 'Ma Shan Zheng', cursive;
+    color: rgb(60, 18, 24);
+}
+
+
+
+.menuChic {
+    font-family: 'Playfair Display SC', serif; 
+    background-color:#FFF5FE ; 
+    
+}
+.menuChic h1 {
+    background: linear-gradient(160deg, #c77412 0%,#905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.menuDelice {
+    background-color:#F9F9F9 ;
+    font-family: 'Amita', cursive;
+}
+.menuDelice h1 {
+    background: linear-gradient(45deg, #0431df 0%,#0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menuPalette {
+    font-family: 'Kaushan Script';
+    background-color: #FDFFFD;
+}
+
+.palettePage {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.menuPalette  h1{
+    background: linear-gradient(45deg, #3d9339 0%,#bfff7e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.descriptionMenu {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* line-height: 150%; */
+}
+p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* line-height: 50%; */
+}
+
+section {
+    margin-bottom: 100px;
+}
+.prix {
+    font-weight: bold;
+    text-align: right;
+}
+
+.trait {
+    width: 90%;
+    height: 3px;
+    
+    margin-top: 72.5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.titre {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.trait {
+    opacity: 0;
+}
+.titre:hover .trait {
+    transition: all 1s;
+    opacity: 1
+}
+
+.titre h4 {
+    
+    /* margin-left: 60px;
+    margin-right: 60px; */
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    width: 100%;
+    margin: 60px 50px 60px 50px;
+}
+
+.traitDelice {
+    background-color:#0887FB;
+    color: #0887FB;
+
+}
+
+.p1Chic *{
+    color: rgb(198, 116, 18);
+}
+.p2Chic *{
+    color: rgb(165, 103, 153);
+}
+.p3Chic *{
+    color: rgb(110, 76, 204);
+}
+
+.traitChic1 {
+    background-color: rgb(198, 116, 18);;
+}
+.traitChic2 {
+    background-color: rgb(165, 103, 153);
+}
+.traitChic3 {
+    background-color: rgb(110, 76, 204);
+}
+
+.traitPalette {
+    background-color: rgb(114, 191, 86);
+}
+
+.traitNote {
+    background-color: rgb(60, 18, 24);;   
+}
+
+a h1 {
+    color: #FCCA46;
+}
+a h1:visited {
+    color: #FCCA46;
+}
+
+section > h1 {
+    margin: 60px 60px 60px 60px;
+}

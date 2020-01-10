@@ -1,0 +1,265 @@
+/* font la note enchantée */
+/* font-family: 'Ma Shan Zheng', cursive; */
+/* Font Le délices des papilles */
+/* font-family: 'Amita', cursive; */
+/* Font le chic à la française */
+/* font-family: 'Playfair Display SC', serif; */
+/* Font la palette du goût */
+/* font-family: 'Courgette', cursive; */
+
+@font-face {
+    font-family: 'Playfair Display SC', serif;
+    src: url(font/PlayfairDisplay-Regular.ttf);
+    src: url(font/PlayfairDisplay-Bold.ttf);
+    font-family: 'Amita', cursive;
+    src: url(font/Amita-Regular.ttf);
+    src: url(font/Amita-Bold.ttf);
+    font-family: 'Kaushan Script', cursive;
+    src: url(font/KaushanScript-Regular.ttf);
+    font-family: 'Ma Shan Zheng', cursive; 
+    src: url(font/MaShanZheng-Regular.ttf);
+}
+
+@keyframes wiggle {
+    0% {
+        
+    }
+    10% {
+        transform: translateX(-5px);
+    }
+    20% {
+        transform: translateX(5px);
+    }
+    30% {
+        transform: translateX(-8px);
+    }
+    40% {
+        transform: translateX(8px);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    60% {
+        transform: translateX(10px);
+    }
+    70% {
+        transform: translateX(-8px);
+    }
+    80% {
+        transform: translateX(8px);
+    }
+    90% {
+        transform: translateX(-5px);
+    }
+    100% {
+        
+    }
+}
+
+body {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    /* police ohmyfood */
+    font-family: montserrat; 
+}
+
+header, footer {
+    background-color: #579C87;
+    color: #FCCA46;
+    
+}
+
+header {
+    
+    margin: auto;
+}
+
+header h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+footer {
+    position:fixed;
+	bottom:0;
+	
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer a {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    
+}
+
+.mentions:hover {
+    animation-name: wiggle;
+    animation-duration: 1.5s;
+    
+}
+.contact:hover {
+    animation-name: wiggle;
+    animation-duration: 1.5s;
+}
+
+#menu {
+    max-width: 500px;
+}
+
+.conteneur {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+    
+}
+
+
+.menu {
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.contentMenu {
+    padding-top: 180px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms;
+    opacity: 1;
+}
+
+
+
+.contentMenu:hover {
+    transform: scale(1.15);
+    opacity: 0.5;
+    
+}
+
+/* Les menus sur la page accueil */
+
+section h2 {
+    font-size: 3rem;
+}
+
+
+
+.laNote {
+    background-color: #FCDFDA;
+    font-family: 'Ma Shan Zheng', cursive;
+    
+}
+.laNote h2,h3,i {
+    color: rgb(60, 18, 24);
+}
+.laNote h3 {
+    font-family: 'Amita', cursive;
+}
+
+
+
+
+
+
+.leChic {
+    background-color:#FFF5FE ;  
+    font-family: 'Playfair Display SC', serif;
+}
+.leChic h2{
+    color: rgb(196, 118, 15);
+}
+.leChic h3{
+    background: linear-gradient(160deg, #c77412 0%,#905bfd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.leDelice {
+    background-color:#F9F9F9 ;
+    font-family: 'Amita', cursive;
+}
+.leDelice h2 {
+    color: #0887FB;
+}
+.leDelice h3 {
+    background: linear-gradient(45deg, #0431df 0%,#0887fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.laPalette {
+    background-color: #FDFFFD;
+    font-family: 'Kaushan Script';
+}
+
+.laPalette h2 {
+    color: rgb(114, 191, 86);
+}
+.laPalette h3 {
+    background: linear-gradient(45deg, #3d9339 0%,#bfff7e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+footer a:visited {
+    text-emphasis: none;
+    text-decoration: none;
+    color: #FCCA46;
+}
+footer a {
+    color: #FCCA46;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    text-emphasis: none;
+    text-decoration-color: none;
+    color: #FCCA46;
+}
+
+a:visited {
+    text-emphasis: none;
+    text-decoration: none;
+}
+.soon, .soon a{
+    margin-bottom: 100px;
+    background-color: #579C87;
+    border-radius: 10px;
+    color: #FCCA46;
+    border: 0px;
+    font-size: x-large;
+    padding: 10px 15px 10px 15px;
+}
+
+i {
+    font-size: 3rem;
+    background: linear-gradient(90deg, #c77425 0%,#c79812 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
