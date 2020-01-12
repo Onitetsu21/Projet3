@@ -57,7 +57,7 @@
 }
 
 body {
-    max-width: 800px;
+    max-width: 1000px;
     text-align: center;
     margin: auto;
     /* police ohmyfood */
@@ -71,13 +71,16 @@ header, footer {
 }
 
 header {
-    
+    padding: 0;
+    margin-top: 0px;
     margin: auto;
 }
 
 header h1 {
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     font-weight: bold;
 }
 
@@ -86,7 +89,7 @@ footer {
 	bottom:0;
 	
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     
@@ -135,7 +138,7 @@ footer a {
 }
 
 .contentMenu {
-    padding-top: 180px;
+    padding-top: 160px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
