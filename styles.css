@@ -21,9 +21,7 @@
 }
 
 @keyframes wiggle {
-    0% {
-        
-    }
+   
     10% {
         transform: translateX(-5px);
     }
@@ -51,9 +49,7 @@
     90% {
         transform: translateX(-5px);
     }
-    100% {
-        
-    }
+    
 }
 
 body {
@@ -79,8 +75,7 @@ header {
 header h1 {
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    margin-top: 0px;
     font-weight: bold;
 }
 
@@ -242,7 +237,7 @@ footer a {
 a {
     text-decoration: none;
     text-emphasis: none;
-    text-decoration-color: none;
+    text-decoration: none;
     color: #FCCA46;
 }
 
@@ -258,6 +253,7 @@ a:visited {
     border: 0px;
     font-size: x-large;
     padding: 10px 15px 10px 15px;
+    cursor: pointer;
 }
 
 i {
