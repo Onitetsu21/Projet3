@@ -20,8 +20,10 @@
 }
 @font-face {
     font-family: 'Ma Shan Zheng', cursive; 
-    src: url(font/MaShanZheng-Regular.ttf); */
-}
+    src: url(font/MaShanZheng-Regular.ttf);
+}     */
+
+
 /* Animation des points dans la page "Prochainement" */
 @keyframes pointMove {
     33% {

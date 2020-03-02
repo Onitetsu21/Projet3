@@ -22,6 +22,7 @@
     font-family: 'Ma Shan Zheng' format('truetype'); 
     src: local(font/MaShanZheng-Regular);
 } */
+
 /* Animation du wiggle sur mentions et contact */
 @keyframes wiggle {
    
