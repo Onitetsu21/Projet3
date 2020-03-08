@@ -4,24 +4,7 @@
     Font Le délices des papilles : font-family: 'Amita', cursive;
     Font le chic à la française : font-family: 'Playfair Display SC', serif;
     Font la palette du goût : font-family: 'Courgette', cursive; */
-/* @font-face {
-    font-family: 'Playfair Display SC';
-    src: local(font/PlayfairDisplay-Regular),
-         local(font/PlayfairDisplay-Bold);
-}
-@font-face {
-    font-family: 'Amita';
-    src: local(font/Amita-Regular),
-         local(font/Amita-Bold);
-}
-@font-face {
-    font-family: 'Kaushan Script' format('truetype');
-    src: local(font/KaushanScript-Regular);
-}
-@font-face {
-    font-family: 'Ma Shan Zheng' format('truetype'); 
-    src: local(font/MaShanZheng-Regular);
-} */
+
 
 /* Animation du wiggle sur mentions et contact */
 @keyframes wiggle {
@@ -134,8 +117,9 @@ a:visited {
     text-emphasis: none;
     text-decoration: none;
 }
-.soon, .soon a{
-    margin-bottom: 100px;
+.soon{
+    font-family: montserrat; 
+    margin: 0px auto 80px auto;
     background-color: #579C87;
     border-radius: 10px;
     color: #FCCA46;
@@ -143,6 +127,7 @@ a:visited {
     font-size: x-large;
     padding: 10px 15px 10px 15px;
     cursor: pointer;
+    max-width: 200px;
 }
 
 i {
@@ -192,9 +177,9 @@ i {
     transition: all 400ms;
 }
 
-section h2 {
+/* section h2 {
     font-size: 3rem;
-}
+} */
 
 /* Sytle du menu "La note enchantée" */
 
